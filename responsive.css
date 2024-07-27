@@ -1,0 +1,26 @@
+
+/* for small devices*/
+@media screen and (max-width: 576px) {
+    .nav-section {
+        margin: 0 5%;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+
+/* for medium devices*/
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .nav-section {
+        margin: 0 5%;
+    }
+    .nav-bar {
+        gap: .8rem;
+    }
+    
+}
