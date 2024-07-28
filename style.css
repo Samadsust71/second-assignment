@@ -16,11 +16,12 @@ body {
 
 }
 
+/*header section design */
+
 .header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
 }
-
 
 .nav-section {
     margin: 0 10%;
@@ -78,7 +79,7 @@ body {
 
 
 .banner-title {
-    width: 60%;
+    max-width: 60%;
     font-size: 4rem;
     font-weight: 900;
     line-height: 110%;
@@ -92,7 +93,7 @@ body {
 }
 
 .banner-description {
-    width: 70%;
+    max-width: 70%;
     margin: 2rem 0;
     font-size: 1rem;
     font-weight: 400;
@@ -207,3 +208,4 @@ body {
     line-height: 2.5rem;
     letter-spacing: 1px;
 }
+/*header section ends*/
