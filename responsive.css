@@ -66,9 +66,10 @@
     }
     .habits-content>div{
        margin-top: 0;
+      
     }
     .habits-content-title{
-        font-size: 2rem;
+        font-size: 1.8rem;
         max-width: 100%;
     }
     .habits-content-description {
