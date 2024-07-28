@@ -16,6 +16,10 @@ body {
 
 }
 
+body p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 /*header section design */
 
 .header {
@@ -148,13 +152,14 @@ body {
     background-color: rgba(230, 83, 60, 1);
     border-radius: 50%;
 }
-.img-card-1 > .play{
+
+.img-card-1>.play {
     height: 30px;
     width: 30px;
     background: rgb(230, 83, 60);
     border-radius: 50%;
     padding: 5px 10px;
-    display: none;   
+    display: none;
 }
 
 
@@ -208,4 +213,62 @@ body {
     line-height: 2.5rem;
     letter-spacing: 1px;
 }
+
 /*header section ends*/
+
+/* main section styles */
+
+/* change habit section styles */
+.change-habits {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.habits-content>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 3rem 0;
+}
+
+.habits-content-title {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habits-content-description {
+    max-width: 60%;
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.habits-img-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habits-img-content div {
+    text-align: center;
+}
+
+.habit-img {
+    border-radius: 50%;
+}
+
+.habit-img-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.habit-img-description {
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: .3px;
+    margin-top: 6px;
+    max-width: 90%;
+}

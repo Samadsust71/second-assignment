@@ -26,7 +26,7 @@
          font-size: 6rem;
     }
     .image-content{
-        margin: 4rem auto;
+        margin: 4rem auto 0 auto;
     }
     .img-card-1{
         width: 150px;
@@ -60,6 +60,20 @@
     .img-card-1 > .play{
         display: block;
     }
+    .habits-img-content{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .habits-content>div{
+       margin-top: 0;
+    }
+    .habits-content-title{
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    .habits-content-description {
+        max-width: 100%;
+    }
 }
 
 
@@ -92,6 +106,10 @@
     .img-card-2{
         margin-top: 9%;
         margin-left: 200px;
+    }
+    .habits-img-content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
     
 }
