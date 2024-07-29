@@ -75,6 +75,14 @@
     .habits-content-description {
         max-width: 100%;
     }
+    .run-extra{
+        flex-direction: column;
+        gap: 30px;
+        margin: 3rem 5%;
+    } 
+    .run-extra-text, .run-extra-img {
+        width: 100%;
+    }
 }
 
 
