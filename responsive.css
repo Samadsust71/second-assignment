@@ -83,6 +83,9 @@
     .run-extra-text, .run-extra-img {
         width: 100%;
     }
+    .BMI-calculator {
+        margin: 0 5%;
+    }
 }
 
 
