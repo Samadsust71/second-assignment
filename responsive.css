@@ -98,6 +98,22 @@
     .table-title {
         margin-bottom: 25px;
     }
+    .our-team {
+        margin: 0 5%;
+    }
+    .team-trainers {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .team-title {
+        font-size: 2rem;
+    }
+    .team-description {
+        width: 100%;
+        
+    }
 }
 
 
