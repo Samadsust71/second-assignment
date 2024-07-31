@@ -26,7 +26,7 @@ select {
 /*header section design */
 
 .header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
 }
 
@@ -77,6 +77,7 @@ select {
     display: flex;
     margin-left: 10%;
     margin-right: 13%;
+    justify-content: space-between;
 
 }
 
@@ -108,7 +109,7 @@ select {
 }
 
 .btn-content {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     gap: .8rem;
 }
@@ -130,23 +131,23 @@ select {
 
 .image-content {
     display: flex;
+    position: relative;
 }
 
 .img-card-1 {
     width: 206px;
     height: 96px;
     position: absolute;
-    margin-top: 31%;
-    margin-left: -110px;
+    top: 72%;
+    right: 72%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
+    background: rgba(48, 48, 48, 0.24);
 }
 
 .img-card-1>.icon {
@@ -189,8 +190,8 @@ select {
     width: 193px;
     height: 98px;
     position: absolute;
-    margin-top: 9%;
-    margin-left: 225px;
+    top: 22%;
+    left: 70%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
