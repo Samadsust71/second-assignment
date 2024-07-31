@@ -326,11 +326,8 @@ select {
 }
 
 /* BMI Calculator section */
-.BMI-calculator {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10%;
+.BMI-calculator{
+    margin: 0 25%;
 }
 
 .BMI-calc-title {
