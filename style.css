@@ -485,10 +485,12 @@ select {
     top: 75%;
     left: 5%;
 }
-.trainer-name{
+
+.trainer-name {
     font-size: 1rem;
 }
-.trainer{
+
+.trainer {
     font-size: .8rem;
 }
 
@@ -497,4 +499,80 @@ select {
     height: 280px;
     border-radius: 18px;
 
+}
+
+/* footer styles  */
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 6%;
+}
+
+.footer-container {
+    padding: 6% 10% 3% 10%;
+}
+.footer-container hr{
+    margin-top: 72px;
+    margin-bottom: 36px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer-items,
+.footer-links {
+    width: 45%;
+}
+
+#fitness {
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+}
+
+.item-description {
+    margin-top: 20px;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+}
+
+.links {
+    list-style: none;
+    margin-top: 40px;
+}
+.link{
+    margin-top: 20px;
+}
+.link a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
