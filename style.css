@@ -290,9 +290,9 @@ select {
 
 }
 
-.run-extra-text {
+.run-extra-text, .run-extra-img  {
 
-    width: 50%;
+    width: 48%;
 }
 
 .run-extra-title {
@@ -304,7 +304,7 @@ select {
 }
 
 .run-extra-description {
-    width: 80%;
+    width: 100%;
     font-size: .8rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -312,11 +312,6 @@ select {
     text-align: left;
     margin-top: 16px;
     margin-bottom: 32px;
-}
-
-.run-extra-img {
-
-    width: 50%;
 }
 
 .run-extra-img img {

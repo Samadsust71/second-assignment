@@ -219,6 +219,11 @@
     .run-extra{
         margin: 3rem 3%;
     }
+    .run-extra-title {
+
+        font-size: 2rem;
+    }
+   
     .BMI-calculator {
         margin: 0 3%;
     }
