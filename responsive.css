@@ -130,7 +130,6 @@
 
     .team-trainers {
         margin-top: 30px;
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
@@ -210,18 +209,28 @@
         margin: 0 3%;
 
     }
+    .habits-content>div {
+       
+        margin: 3rem 0;
+    }
 
     .habits-img-content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
        
     }
+    
     .run-extra{
         margin: 3rem 3%;
+       
     }
     .run-extra-title {
 
         font-size: 2rem;
+    }
+    .run-extra-img img {
+        height: 300px;
+       
     }
    
     .BMI-calculator {
@@ -240,6 +249,7 @@
     .our-team {
         margin: 0 3%;
     }
+   
     .footer-container{
         padding: 6% 3% 3% 3%;
     }
