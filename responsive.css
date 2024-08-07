@@ -104,6 +104,15 @@
     .run-extra-img {
         width: 100%;
     }
+    .unique{
+        margin: 3rem 5%;
+    }
+    .unique-description{
+        width: 100%;
+    }
+    .unq-services{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .BMI-calculator {
         margin: 0 5%;
@@ -228,7 +237,12 @@
 
         font-size: 2rem;
     }
-    
+    .unique{
+        margin: 3rem 3%;
+    }
+    .unq-services{
+        grid-template-columns: repeat(2, 1fr);
+    }
    
     .BMI-calculator {
         margin: 0 3%;
