@@ -151,6 +151,7 @@
         width: 100%;
 
     }
+    
 
     .footer-content,
     .footer-links {
@@ -259,6 +260,9 @@
     }
     .our-team {
         margin: 0 3%;
+    }
+    .trainer-pic img {
+        object-fit: cover;
     }
    
     .footer-container{
