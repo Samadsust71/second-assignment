@@ -26,6 +26,11 @@
         max-width: 100%;
         font-size: 3rem;
     }
+    .banner-description {
+        max-width: 73%;
+        line-height: 1.5rem;
+        letter-spacing: .5px;
+    }
 
     .banner-title>#shape {
         font-size: 6rem;
